@@ -23,10 +23,10 @@ public class SqlPersonalRepositorio implements PersonalRespositorio{
         {
             ResultSet rs = preparedStatement.executeQuery();
             while (rs.next()){
-                Integer id = rs.getInt("id");
+                int id = rs.getInt("id");
                 String name = rs.getString("name");
                 String lastName = rs.getString("lastname");
-                Integer age = rs.getInt("age");
+                int age = rs.getInt("age");
                 String dni = rs.getString("dni");
                 String password = rs.getString("password");
                 personales.add(new Personal(id,name,lastName,age,dni,password));

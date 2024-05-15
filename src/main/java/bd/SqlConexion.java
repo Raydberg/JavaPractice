@@ -10,7 +10,7 @@ public class SqlConexion {
 
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String url = "jdbc:sqlserver://localhost;encrypt=false;database=Personal;user=ray;password=2005;";
+            String url = "jdbc:sqlserver://localhost;encrypt=false;database=Personas;user=ray;password=2005;";
             conexion = DriverManager.getConnection(url);
         } catch (SQLException e) {
             System.out.println("Error en la conexcion a SQL" + e);

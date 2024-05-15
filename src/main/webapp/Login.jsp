@@ -7,7 +7,7 @@
 </head>
 <body class="d-flex align-items-center justify-content-center" style="height: 100vh;">
   <section>
-    <form class="d-flex flex-column gap-4 border border-3 border-danger  " action="">
+    <form name="frm-login" class="d-flex flex-column gap-4 border border-3 border-danger  " action="">
       <span class="d-flex justify-content-center fs-4 fw-bold ">Login </span>
       
         <div class="form-floating">
@@ -27,6 +27,8 @@
      </div>
     </form>
   </section>
-
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="JavaScript/ValidateLogin.js"></script>
 </body>
 </html>

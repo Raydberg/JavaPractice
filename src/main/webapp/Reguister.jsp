@@ -13,7 +13,7 @@
 </head>
 <body class="d-flex align-items-center justify-content-center" style="height: 100vh;">
   <section>
-    <form class="d-flex flex-column gap-2  border border-3 border-danger  " action="">
+    <form name="frm-reguister" class="d-flex flex-column gap-2  border border-3 border-danger  " action="">
       <span class="d-flex justify-content-center fs-4 fw-bold ">Reguister</span>
        <div class="form-floating  ">
         <input class="form-control " type="text" name="name" id="name" placeholder="Name">
@@ -36,7 +36,7 @@
         <label for="password">Password</label>
         </div>
      <div class="d-flex justify-content-center ">
-      <button class="btn btn-outline-success ">Reguister</button>
+      <button type="submit" class="btn btn-outline-success ">Reguister</button>
      </div>
      <div>
       <span>Not a member</span>
@@ -45,7 +45,7 @@
     </form>
   </section>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-  <script src="JavaScript/ValidateReguister.js"></script>
-</html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="./JavaScript/ValidateReguister.js"></script>
 </body>
+</html>

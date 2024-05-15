@@ -19,7 +19,7 @@
         <label for="password">Password</label>
         </div>
      <div class="d-flex justify-content-center ">
-      <button class="btn btn-outline-success ">Login In</button>
+      <button type="submit" class="btn btn-outline-success">Login In</button>
      </div>
      <div>
       <span>Not a member</span>
@@ -28,7 +28,7 @@
     </form>
   </section>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-  <script src="JavaScript/ValidateLogin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="./JavaScript/ValidateLogin.js"></script>
 </body>
 </html>
